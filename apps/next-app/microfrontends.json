@@ -20,7 +20,6 @@
       "packageName": "web",
       "routing": [
         {
-          "group": "web",
           "paths": ["/hello","/web"]
         }
       ]
