@@ -1,4 +1,5 @@
 import Image from "next/image";
+ import { Link } from '@vercel/microfrontends/next/client';
 
 export default function Home() {
   return (
@@ -97,6 +98,10 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+       
+
+<Link href="/docs">View Documentation</Link>
+<Link href="/web">Getting Started Guide</Link>
       </footer>
     </div>
   );
