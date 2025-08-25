@@ -20,7 +20,8 @@
       "packageName": "web",
       "routing": [
         {
-          "paths": ["/web"]
+          "group": "web",
+          "paths": ["/"]
         }
       ]
     }
