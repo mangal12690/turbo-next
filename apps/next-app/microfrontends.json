@@ -11,7 +11,7 @@
       "packageName": "docs",
       "routing": [
         {
-          "paths": ["/"]
+          "paths": ["/docs"]
         }
       ]
     },
@@ -19,7 +19,7 @@
       "packageName": "web",
       "routing": [
         {
-          "paths": ["/"]
+          "paths": ["/web"]
         }
       ]
     }
