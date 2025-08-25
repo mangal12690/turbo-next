@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "turbo-next-next-app": {
+      "packageName": "next-app",
+      "development": {
+        "fallback": "turbo-next-next-app.vercel.app"
+      }
+    },
+    "turbo-next-docs": {
+      "packageName": "docs",
+      "routing": [
+        {
+          "paths": ["/"]
+        }
+      ]
+    },
+    "turbo-next-web": {
+      "packageName": "web",
+      "routing": [
+        {
+          "paths": ["/"]
+        }
+      ]
+    }
+  }
+}
