@@ -101,7 +101,8 @@ export default function Home() {
        
 
 <Link href="/docs">View Documentation</Link>
-<Link href="/web">Getting Started Guide</Link>
+<Link href="/web">Web</Link>
+<Link href="/hello">Hello</Link>
       </footer>
     </div>
   );
