@@ -11,7 +11,8 @@
       "packageName": "docs",
       "routing": [
         {
-          "paths": ["/docs"]
+          "group": "docs",
+          "paths": ["/docs", "/docs/:path*"]
         }
       ]
     },
